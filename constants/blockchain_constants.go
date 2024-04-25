@@ -1,6 +1,6 @@
 package constants
 
-const CRYPTO_PATH string = "/home/ccd075/fabric-samples/backend/crypto-config/peerOrganizations/org1.example.com"
+const CRYPTO_PATH string = "/home/ccd075/fabric-samples/campustrade-backend/crypto-config/peerOrganizations/org1.example.com"
 const CERT_PATH string = CRYPTO_PATH + "/users/User1@org1.example.com/msp/signcerts/User1@org1.example.com-cert.pem"
 const KEY_PATH string = CRYPTO_PATH + "/users/User1@org1.example.com/msp/keystore/"
 const TLS_CERT_PATH string = CRYPTO_PATH + "/peers/peer0.org1.example.com/tls/ca.crt"
