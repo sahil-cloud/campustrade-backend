@@ -33,7 +33,7 @@ var orgConfig OrgSetup = OrgSetup{
 	CertPath:     constants.CERT_PATH,
 	KeyPath:      constants.KEY_PATH,
 	TLSCertPath:  constants.TLS_CERT_PATH,
-	PeerEndpoint: "localhost:7051",
+	PeerEndpoint: "0.0.0.0:7051",
 	GatewayPeer:  "peer0.org1.example.com",
 }
 
